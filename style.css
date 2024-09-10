@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #e5e5e59d;
+}
+
+.logo{
+    font-size: 3rem;
+    color: #18184a;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    color: black;
+}
+
+.regu{
+    font-size: 1rem;
+    cursor:pointer;
+    font-weight: 450;
+    transition: 0.5sec ease;
+}
+
+.regu:hover{
+    transform: scale(1.1);
+}
+
+.main{
+    height: auto;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main .banner{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .banner img{
+    padding-top: 3vh;
+    width: 15vw;
+}
+
+.main .banner h2{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 2vw;
+}
+
+.main .details{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: black solid 2px;
+    border-radius: 2vw;
+    width: 90%;
+}
+
+.main .details .all{
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main .details .all .btns{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+
+.main .details .all .btns button{
+    background-color: #0C4A63;
+    height: 12vh;
+    width: 15vw;
+    border-radius: 5vw;
+    cursor: pointer;
+    color: white;
+    font-size: 1.47vw;
+}
+
+.main .details .all .btns .con-btn{
+    background-color: #FAA419;
+    font-weight: 200;
+    height: 8vh;
+}
+
+.main .details .all .btns .con-btn img{
+    width: 2vw;
+}
+
+.main .details .all .btns .con-btn:hover{
+    border: #000000 solid 2px;
+    cursor: auto;
+}
+
+
+.main .details .all .btns .apply{
+    transition: 0.5s ease;
+}
+
+.main .details .all .btns .apply:hover{
+    border: #000000 solid 2px;
+    transform: scale(1.1);
+}
+
+.main .details .all .conf{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+.main .details .all .conf .cred{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .details .all .conf .cred .icon{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vw;
+    padding-bottom: 1.9vw;
+}
+
+.main .details .all .conf .cred .icon .a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main .details .all .conf .cred .icon .s{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main .details .all .conf .cred .icon .d{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main .details .all .conf .cred .icon .f{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+}
+
+a:hover{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+}
+
+a:active{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+}
+
+
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 70%;
+    height: auto;
+    border: #919191 solid 2px;
+    border-radius: 2vw;
+}
+
+.slogan h1{
+    padding: 1vw;
+    font-family: Consolas;
+}
+
+.main-com-details{
+    height: auto;
+    width: 95%;
+    background-color: rgba(224, 222, 222, 0.36);
+    display: flex;
+    box-shadow: 14px 15px 5px rgb(211, 212, 212);
+    flex-direction: column;
+    align-items: center;
+}
+
+.committee{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(224, 222, 222, 0.36);
+    padding: 4vw;
+    box-shadow: 14px 15px 5px rgb(211, 212, 212);
+    
+}
+
+.committee .unga{
+    width: 30%;
+    height:auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.committee .unga h2{
+    padding: 5%;
+}
+
+.committee .unw h2{
+    padding: 5%;
+}
+
+.committee .unhrc h2{
+    padding: 5%;
+}
+
+
+.committee .unw{
+    width: 30%;
+    height:auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.committee .unhrc{
+    width: 30%;
+    height:auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.committee .unga .logo1{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.committee .unw .logo2{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.committee .unhrc .logo3{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.committee img{
+    border-radius: 2.5vw;
+    padding-top:2vh;
+    padding-bottom: 2vh;
+    box-shadow: 14px 15px 5px rgb(211, 212, 212);
+}
+
+.organizer{
+    height: auto;
+    width: 70%;
+    padding: 2%;
+    border: black 3px solid;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.organizer .photo img{
+    border-radius: 45%;
+}
+
+.visit-com{
+    background-color: #5BADFF;
+    font-size: 1.2vw;
+    padding: 4%;
+    border-radius: 2vw;
+}
+
+
+@media(max-width: 900px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+    }
+    
+    html{
+        font-size: 100%;
+    }
+    
+    body{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 9%;
+        background-color: transparent;
+        filter: drop-shadow(10px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        background-color: #e5e5e59d;
+    }
+    
+    .logo{
+        font-size: 3rem;
+        color: #18184a;
+        font-weight: 800;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    
+    .logo:hover{
+        transform: scale(1.1);
+        color: black;
+    }
+    
+    .regu{
+        display: none;
+    }
+    
+    .main{
+        height: auto;
+        background-color: #ebebeb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .main .banner{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main .banner img{
+        padding-top: 3vh;
+        width: 15vw;
+        width: 30vw;
+    }
+
+    .main .banner h2{
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        font-size: 5vw;
+        padding-left: 20%;
+    }
+    
+    .main .details{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        border: black solid 2px;
+        border-radius: 2vw;
+        width: 90%;
+    }
+    
+    .main .details .all{
+        padding-left: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main .details .all .btns{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 10px;
+    }
+    
+    .main .details .all .btns button{
+        background-color: #0C4A63;
+        height: 12vh;
+        width: 50vw;
+        border-radius: 5vw;
+        cursor: pointer;
+        color: white;
+        font-size: 6vw;
+    }
+    
+    .main .details .all .btns .con-btn{
+        background-color: #FAA419;
+        font-weight: 200;
+        height: 8vh;
+    }
+    
+    .main .details .all .btns .con-btn img{
+        width: 5vw;
+    }
+    
+    .main .details .all .btns .con-btn:hover{
+        border: #000000 solid 2px;
+        cursor: auto;
+    }
+    
+    
+    .main .details .all .btns .apply{
+        transition: 0.5s ease;
+    }
+    
+    .main .details .all .btns .apply:hover{
+        border: #000000 solid 2px;
+        transform: scale(1.1);
+    }
+    
+    .main .details .all .conf{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 3vh;
+    }
+
+    .main .details .all .conf h3{
+        font-size: 7vw;
+    }
+    
+    .main .details .all .conf .cred{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main .details .all .conf .cred .icon{
+        display: flex;
+        flex-direction: column;
+        padding-left: 3vw;
+        padding-bottom: 1.9vw;
+    }
+    
+    .main .details .all .conf .cred .icon .a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .main .details .all .conf .cred .icon .s{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .main .details .all .conf .cred .icon .d{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .main .details .all .conf .cred .icon .f{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    a{
+        color: #FFFFFF;
+        font-size: 1.6vw;
+    }
+    
+    a:hover{
+        color: #FFFFFF;
+        font-size: 1.6vw;
+    }
+    
+    a:active{
+        color: #FFFFFF;
+        font-size: 1.6vw;
+    }
+    
+    
+    .slogan{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 90%;
+        height: auto;
+        border: #919191 solid 2px;
+        border-radius: 2vw;
+    }
+    
+    .slogan h1{
+        padding: 1vw;
+        font-family: Consolas;
+    }
+    
+    .main-com-details{
+        height: auto;
+        width: 95%;
+        background-color: rgba(224, 222, 222, 0.36);
+        display: flex;
+        box-shadow: 14px 15px 5px rgb(211, 212, 212);
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .committee{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(224, 222, 222, 0.36);
+        padding: 4vw;
+        box-shadow: 14px 15px 5px rgb(211, 212, 212);
+        row-gap: 20px;
+        
+    }
+    
+    .committee .unga{
+        width: 90%;
+        height:auto;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .committee .unga h2{
+        padding: 5%;
+    }
+    
+    .committee .unw h2{
+        padding: 5%;
+    }
+    
+    .committee .unhrc h2{
+        padding: 5%;
+    }
+    
+    
+    .committee .unw{
+        
+        width: 90%;
+        height:auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .committee .unhrc{
+        
+        width: 90%;
+        height:auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .committee .unga .logo1{
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65%;
+    
+    }
+    
+    .committee .unw .logo2{
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65%;
+    }
+    
+    .committee .unhrc .logo3{
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65%;
+    }
+    
+    .committee img{
+        border-radius: 2.5vw;
+        padding-top:2vh;
+        padding-bottom: 2vh;
+        box-shadow: 14px 15px 5px rgb(211, 212, 212);
+    }
+    
+    .organizer{
+        height: auto;
+        width: 70%;
+        padding: 2%;
+        border: black 3px solid;
+        border-radius: 2vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .organizer .photo img{
+        border-radius: 45%;
+    }
+
+    .visit-com{
+        background-color: #9ecbf9;
+        font-size: 4vw;
+        padding: 5%;
+        border-radius: 10vw;
+    }
+    
+    
+}

@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #e5e5e59d;
+}
+
+.logo{
+    font-size: 3rem;
+    color: #18184a;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    color: black;
+}
+
+.regu{
+    font-size: 1rem;
+    cursor:pointer;
+    font-weight: 450;
+    transition: 0.5sec ease;
+}
+
+.regu:hover{
+    transform: scale(1.1);
+}
+
+.main{
+    height: auto;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main .com-logo{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .com-logo img{
+    padding-top: 3vh;
+    width: 20vw;
+}
+
+.main .com-logo h2{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 2vw;
+}
+
+.ebs{
+    background-color: #dbdadaae;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.prof{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.prof img{
+    width: 5vw;
+    border-radius: 2vw;
+}
+
+.eb1{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.eb2{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.eb3{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.meet button{
+    background-color: #5BADFF;
+    font-size: 1.2vw;
+    padding: 4%;
+    border-radius: 2vw;
+    color: white;
+    font-weight: 900;
+}
+
+@media(max-width: 900px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+    }
+    
+    html{
+        font-size: 100%;
+    }
+    
+    body{
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 9%;
+        background-color: transparent;
+        filter: drop-shadow(10px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        background-color: #e5e5e59d;
+    }
+    
+    .logo{
+        font-size: 3rem;
+        color: #18184a;
+        font-weight: 800;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    
+    .logo:hover{
+        transform: scale(1.1);
+        color: black;
+    }
+    
+    .regu{
+        display: none;
+    }
+    
+    .main{
+        height: auto;
+        background-color: #ebebeb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+       
+    .main .com-logo{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main .com-logo img{
+        padding-top: 3vh;
+        width: 50vw;
+    }
+
+    .main .com-logo h2{
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        font-size: 5vw;
+        padding-left: 20%;
+    }
+
+    
+    .ebs{
+        background-color: #dbdadaae;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0.5px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .prof{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    .prof img{
+        width: 15vw;
+        border-radius: 2vw;
+    }
+
+    .eb1{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+
+    .eb2{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .eb3{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .meet button{
+        background-color: #5BADFF;
+        font-size: 5vw;
+        padding: 4%;
+        border-radius: 10vw;
+        color: white;
+        font-weight: 900;
+    }
+    
+}
